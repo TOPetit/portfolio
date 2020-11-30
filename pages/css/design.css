@@ -28,7 +28,7 @@ body {
 }
 
 .page-header {
-    background-color: rgba(1, 150, 150, 0.164);
+    background-color: rgba(145, 145, 145, 0.164);
     margin-right: auto;
     margin-left: auto;
     max-width: 700px;
@@ -64,7 +64,7 @@ justify-content: center;
 }
 
 .page-header>ul>li>a:hover {
-    background-color: rgb(63, 63, 63);
+    background-color: rgb(134, 134, 134);
     color: rgb(255, 255, 255);
 }
 
@@ -72,7 +72,7 @@ justify-content: center;
     padding: 4px;
     border: 1px solid black;
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(172, 172, 172);
     transition: 0.5s;
     border-radius: 5%;
     background-color: rgb(63, 63, 63);

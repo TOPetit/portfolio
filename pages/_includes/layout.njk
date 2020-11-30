@@ -5,7 +5,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>{{title}}</title>
-        <link rel="stylesheet" href="/css/design.css">
+        <link rel="stylesheet" href=" {{ '/css/design.css' | url }}">
     </head>
     <body>
         <header class="page-header">
@@ -15,7 +15,7 @@
                         {% if page.url == entry.url %}
                             <div class="hovered-menuitem">{{entry.title}}</div>
                         {% else %}
-                            <a href="{{entry.url}}">{{entry.title}}</a>
+                            <a href="{{entry.url | url }}">{{entry.title}}</a>
                         {% endif %}
                     </li>
                 {% endfor %}
@@ -25,7 +25,7 @@
         <div class="shape-prefooter"></div>
         <footer class="page-footer">
             <p>2020</p>
-            <p>Un site développé par Théo avec Eleventy</p>
+            <p>Site développé par moi-même</p>
         </footer>
     </body>
 

@@ -6,9 +6,11 @@ module.exports = function
     eleventyConfig.addPlugin(pluginNavigation)
 
     eleventyConfig.addPassthroughCopy('pages/css')
+    eleventyConfig.addPassthroughCopy('files')
     return {
         dir: {
             input: "pages"
-        }
+        },
+        pathPrefix: '/~petitth'
     }
 }
