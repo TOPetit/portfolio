@@ -8,7 +8,25 @@
         <link rel="stylesheet" href="/css/design.css">
     </head>
     <body>
+        <header class="page-header">
+            <ul>
+                {% for entry in collections.all | eleventyNavigation %}
+                    <li>
+                        {% if page.url == entry.url %}
+                            <div class="hovered-menuitem">{{entry.title}}</div>
+                        {% else %}
+                            <a href="{{entry.url}}">{{entry.title}}</a>
+                        {% endif %}
+                    </li>
+                {% endfor %}
+            </ul>
+        </header>
         {{ content | safe }}
+        <div class="shape-prefooter"></div>
+        <footer class="page-footer">
+            <p>2020</p>
+            <p>Un site développé par Théo avec Eleventy</p>
+        </footer>
     </body>
 
 </html>
