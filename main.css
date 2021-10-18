@@ -1,22 +1,4 @@
-.light-theme {
-    color: darkslategrey;
-    background: cornsilk;
-}
-
 .dark-theme {
-  color: cornsilk;
-  background: darkslategrey;
+  color: white;
+  background-color: rgb(29, 49, 49);
 }
-
-
-li {
-    list-style: circle;
-  }
-  
-  .list {
-    list-style: square;
-  }
-  
-  #msg {
-    font-family: monospace;
-  }
