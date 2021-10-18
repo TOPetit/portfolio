@@ -1,0 +1,22 @@
+.light-theme {
+    color: darkslategrey;
+    background: cornsilk;
+}
+
+.dark-theme {
+  color: cornsilk;
+  background: darkslategrey;
+}
+
+
+li {
+    list-style: circle;
+  }
+  
+  .list {
+    list-style: square;
+  }
+  
+  #msg {
+    font-family: monospace;
+  }
