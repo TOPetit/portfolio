@@ -2,3 +2,31 @@
   color: white;
   background-color: rgb(29, 49, 49);
 }
+
+.separator {
+  margin-top: 50px;
+}
+
+.project-box {
+  border: 10px solid;
+  border-color: grey;
+  width: 700px;
+  height: 1000px;
+}
+
+.grid{
+  margin: 25px;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-template-rows: 200px 200px 200px;
+  grid-gap: 25px;
+}
+
+.grid-item {
+  border-radius: 50%;
+  padding: 20px;
+  width: 150px;
+  height: 150px;
+  background-image: url(https://picsum.photos/160/60); 
+}
