@@ -2,6 +2,14 @@ body {
     background-color: rgb(39, 38, 51);
 }
 
+#greeting {
+    font-size: 100px;
+    margin: 0px;
+    text-align: center;
+    color: rgb(169, 230, 230);
+    font: bold;
+}
+
 #clock {
     font-size: 100px;
     margin: 0px;

@@ -12,5 +12,12 @@ function showTime() {
 
     document.getElementById("clock")
         .innerHTML = currentTime;
+
+    if (hour < 12) {
+        document.getElementById("greeting").innerHTML = "Good morning"
+    }
+    else {
+        document.getElementById("greeting").innerHTML = "Good afternoon"
+    }
 }
 showTime();
