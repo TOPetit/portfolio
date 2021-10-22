@@ -7,7 +7,13 @@ body {
     margin: 0px;
     text-align: center;
     color: rgb(169, 230, 230);
-    font: bold;
+    font-family: "greeting";
+    transition: 1s;
+}
+
+#greeting:hover {
+    text-shadow: 2px 2px 4px rgb(134, 2, 24);
+    transition: 1s;
 }
 
 #clock {
@@ -22,4 +28,9 @@ body {
 @font-face{
     font-family:'digital-clock-font';
     src: url('DS-DIGIT.TTF');
+}
+
+@font-face {
+    font-family: "greeting";
+    src: url("Paloseco-Medium.ttf");
 }

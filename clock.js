@@ -14,10 +14,10 @@ function showTime() {
         .innerHTML = currentTime;
 
     if (hour < 12) {
-        document.getElementById("greeting").innerHTML = "Good morning"
+        document.getElementById("greeting").innerHTML = "Good Morning"
     }
     else {
-        document.getElementById("greeting").innerHTML = "Good afternoon"
+        document.getElementById("greeting").innerHTML = "Good Afternoon"
     }
 }
 showTime();
