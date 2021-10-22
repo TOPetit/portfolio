@@ -8,17 +8,12 @@ body {
     text-align: center;
     color: rgb(169, 230, 230);
     font-family: "greeting";
-    transition: 1s;
+    text-shadow: 2px 2px 4px rgb(134, 2, 24);
 }
 
-#greeting:hover {
-    text-shadow: 2px 2px 4px rgb(134, 2, 24);
-    transition: 1s;
-}
 
 #clock {
     font-size: 100px;
-    margin: 0px;
     text-align: center;
     color: rgb(169, 230, 230);
     font-family: "digital-clock-font";
