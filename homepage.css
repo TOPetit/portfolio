@@ -30,8 +30,16 @@ body {
     src: url("Paloseco-Medium.ttf");
 }
 
+.separator-top-greeting {
+    margin-top: 20px;
+    height: 1px;
+    width: 1000px;
+    margin: 10px;
+    background: rgb(134, 2, 24);
+}
+
 .separator-clock-grid {
-    height: 5px;
+    height: 1px;
     width: 500px;
     margin: 10px;
     background: rgb(134, 2, 24);
