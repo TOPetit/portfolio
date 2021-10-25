@@ -31,6 +31,7 @@ body {
 }
 
 .item_img {
+    opacity: 1;
     width: 70px;
     height: 70px;
     padding: 5px;
@@ -47,21 +48,20 @@ body {
   }
 
 .grid_item {
+    opacity: 0;
     transition-duration: 1s;
     position: absolute;
     width: 80px;
     height: 80px;
-    transform: scale(1);
     border-radius: 50%;
     background: rgb(39, 38, 51);
-    background: radial-gradient(circle, rgba(39, 38, 51,1) 0%, rgba(39, 38, 51,1) 50%, rgba(255, 255, 255,1) 100%);
 }
 
 .grid_item:hover {
+    opacity: 1;
     transition: 500ms;
     width: 80px;
     height: 80px;
-    transform: scale(1);
     border-radius: 50%;
     background: rgb(39, 38, 51);
     background: radial-gradient(circle, rgba(39, 38, 51,1) 0%, rgba(39, 38, 51,1) 50%, rgba(255, 255, 255,1) 100%);
