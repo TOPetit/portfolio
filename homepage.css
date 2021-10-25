@@ -29,3 +29,43 @@ body {
     font-family: "greeting";
     src: url("Paloseco-Medium.ttf");
 }
+
+.item_img {
+    width: 70px;
+    height: 70px;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.grid{
+    padding-left: 40px;
+    margin: 25px;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px;
+    grid-gap: 2.5%;
+  }
+
+.grid_item {
+    transition-duration: 1s;
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    transform: scale(1);
+    border-radius: 50%;
+    background: rgb(39, 38, 51);
+    background: radial-gradient(circle, rgba(39, 38, 51,1) 0%, rgba(39, 38, 51,1) 50%, rgba(255, 255, 255,1) 100%);
+}
+
+.grid_item:hover {
+    transition: 500ms;
+    width: 80px;
+    height: 80px;
+    transform: scale(1);
+    border-radius: 50%;
+    background: rgb(39, 38, 51);
+    background: radial-gradient(circle, rgba(39, 38, 51,1) 0%, rgba(39, 38, 51,1) 50%, rgba(255, 255, 255,1) 100%);
+}
+
+  
