@@ -56,12 +56,6 @@ body {
     padding: 15px;
 }
 
-.item_img:hover {
-    width: 70px;
-    height: 70px;
-    padding: 15px;
-}
-
 .grid{
     padding-left: 40px;
     margin: 25px;
