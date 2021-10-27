@@ -1,5 +1,5 @@
 body {
-    background-image: url("./wallpaper.jpg");
+    background-image: url("../images/background/wallpaper.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 150%;
@@ -27,12 +27,12 @@ body {
 
 @font-face{
     font-family:'digital-clock-font';
-    src: url('DS-DIGIT.TTF');
+    src: url('../fonts/DS-DIGIT.TTF');
 }
 
 @font-face {
     font-family: "greeting";
-    src: url("Paloseco-Medium.ttf");
+    src: url("../fonts/Paloseco-Medium.ttf");
 }
 
 .separator-top-greeting {
