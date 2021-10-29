@@ -68,7 +68,6 @@ body {
 
 .grid_item {
     transition-duration: 2000ms;
-    position: absolute;
     justify-content: center;
     width: 100px;
     height: 100px;
@@ -78,7 +77,6 @@ body {
 
 .grid_item:hover {
     transition-duration: 500ms;
-    position: absolute;
     justify-content: center;
     width: 100px;
     height: 100px;
