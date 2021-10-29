@@ -51,6 +51,8 @@ body {
 }
 
 .item_img {
+    pointer-events: none;
+    position: absolute;
     width: 70px;
     height: 70px;
     padding: 15px;
@@ -82,4 +84,12 @@ body {
     height: 100px;
     border-radius: 50%;
     background: rgba(48, 44, 54, 0);
+}
+
+.grid_link {
+    position: absolute;
+    border-radius: 50%;        
+    display: inline-block;
+    width: 100px;
+    height: 100px;
 }
