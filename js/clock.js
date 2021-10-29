@@ -16,8 +16,11 @@ function showTime() {
     if (hour < 12) {
         document.getElementById("greeting").innerHTML = "Good Morning"
     }
-    else {
+    else if (hour < 18) {
         document.getElementById("greeting").innerHTML = "Good Afternoon"
+    } else {
+        document.getElementById("greeting").innerHTML = "Good Evening"
     }
+
 }
 showTime();
