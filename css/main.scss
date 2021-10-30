@@ -1,13 +1,9 @@
-HTML, BODY {
-  height: 100%;
-  }
-
-$colors: #EFEAC5, #EFEAC5, #EFEAC5, #EFEAC5, #EFEAC5;
+$colors: #360745, #D61C59, #E7D84B, #EFEAC5, #1B8798;
 
 BODY {
   background: hsl(200,70,11);
   background-size: .12em 100%;
-  font: 8em/1 Arial;
+  font: 16em/1 Arial;
 }
 
 .text--line {
@@ -16,25 +12,26 @@ BODY {
 
 svg {
   position: absolute;
-  width: 100%;
-  height: 100%;
+  width: 99%;
+  height: 99%;
   }
 
 $max: 5;
-$stroke-step: 7%; 
+$stroke-step: 1.5%; 
 .text-copy {
   fill: none;
   stroke: white;
+  stroke-linecap: round;
   stroke-dasharray: $stroke-step $stroke-step * ($max - 1);
-  stroke-width: 1px;
+  stroke-width: 3px;
   
-  animation: stroke-offset 5s linear;
+  animation: stroke-offset 3s linear;
   
   @for $item from 1 through $max {
     $stroke-color: nth($colors, $item);
     
     &:nth-child(#{$item}) {
-      stroke: $stroke-color;
+      stroke: #EFEAC5;
       stroke-dashoffset: $stroke-step * $item;
       }
     }
