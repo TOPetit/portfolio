@@ -10,23 +10,25 @@
 </head>
 
 <body>
+    <svg class="box">
+        <rect x="5%" y="5%" width="95%" height="95%" stroke=#EFEAC5 fill=none />
 
-    <svg viewBox="0 0 100% 100%">
-        <symbol id="s-text">
-            <text text-anchor="middle" x="50%" y="35%" class="text--line">
-                Théo Petit
-            </text>
+        <svg viewBox="0 0 100% 100%" class="name">
+            <symbol id="s-text">
+                <text text-anchor="middle" x="50%" y="80%" class="text--line">
+                    Théo Petit
+                </text>
+            </symbol>
 
-        </symbol>
+            <g class="g-ants">
+                <use xlink:href="#s-text" class="text-copy"></use>
+                <use xlink:href="#s-text" class="text-copy"></use>
+                <use xlink:href="#s-text" class="text-copy"></use>
+                <use xlink:href="#s-text" class="text-copy"></use>
+                <use xlink:href="#s-text" class="text-copy"></use>
+            </g>
 
-        <g class="g-ants">
-            <use xlink:href="#s-text" class="text-copy"></use>
-            <use xlink:href="#s-text" class="text-copy"></use>
-            <use xlink:href="#s-text" class="text-copy"></use>
-            <use xlink:href="#s-text" class="text-copy"></use>
-            <use xlink:href="#s-text" class="text-copy"></use>
-        </g>
-
+        </svg>
     </svg>
 
 </body>
