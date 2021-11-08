@@ -69,6 +69,8 @@ body {
     margin: auto;
     display: table-cell;
     vertical-align: middle;
+    font-family: "text font";
+    font-size: 0.9em;
     color: beige;
 }
 
@@ -85,10 +87,17 @@ body {
     display: table-cell;
     vertical-align: middle;
     text-align: justify;
+    font-size: 0.9em;
+    font-family: "text font";
     color: beige;
 }
 
 @font-face{
     font-family:'title font';
     src: url('../fonts/HoylePERSONAL-Regular.ttf');
+}
+
+@font-face{
+    font-family:'text font';
+    src: url('../fonts/Code\ New\ Roman.otf');
 }
