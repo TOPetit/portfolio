@@ -4,7 +4,6 @@ body {
 }
 
 .box {
-    padding: 50px;
     margin: auto;
     margin-top: 5%;
     width: 80%;
@@ -47,6 +46,7 @@ body {
 .title > p {
     font-size: 30px;
     text-align: center;
+    font-family: "title font";
     color: beige;
 }
 
@@ -86,4 +86,9 @@ body {
     vertical-align: middle;
     text-align: justify;
     color: beige;
+}
+
+@font-face{
+    font-family:'title font';
+    src: url('../fonts/HoylePERSONAL-Regular.ttf');
 }
